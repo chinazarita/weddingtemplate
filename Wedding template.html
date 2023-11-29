@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wedding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+           width: 100%;
+        } 
+        .menu-bar{
+            width: 100%;
+            min-height: 50px;
+            position: fixed;
+            bottom: 0px;
+            /* /* word-spacing: 100px; */
+        } 
+        .menu-bar ul{
+            list-style-type: none;
+            background-color: rgba(236, 223, 220, 0.5);
+        }
+        .menu-bar a{
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 18px;
+            padding: 110px; 
+        }  
+        .menu-bar li {
+        display: inline-block;
+        padding: 15px;
+        }
+        .menu-bar a:hover{
+            background-color: lightgray -200px;
+            color: black 50px;
+        }
+        .first-page{
+        background-image: url(file:///C:/Users/CHIBUZOR/Desktop/W3Schools-2021-09-19/w3images/wedding_couple2.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: 100% 100%;
+        padding: 35px;
+        }
+        .first-txt{
+            text-align: center;
+            padding-top: 200px;
+            color: rgb(252, 247, 247);
+            font-family: Helvetica; 
+            letter-spacing: 5px;
+            
+        }
+        .first-txt h1{
+            /* padding: 10px; */
+            font-size: 60px;
+        }
+        .first-txt h3{
+            padding: 10px;
+            font-size: 30px;
+            font-weight:bolder;
+            
+        }
+        .first-txt p{
+            font-size: 30px;
+            font-weight: 900px;   
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .jamejohn-cont{
+            background-color: rgb(250, 234, 215);
+            text-align: center;
+        }
+        .first-pg h1{
+            color: gray;
+            font-family:Helvetica;
+            font-size: 35px;
+            padding:55px;
+        }
+        .para{
+            text-align: justify;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 2;
+            margin-left: 230px;   
+            line-break: px;
+        }
+        .first-pg p{
+            font-style: italic;
+            text-align: justify;
+        }
+        .first-pg button{
+            background-color: black;
+            color: white;
+            font-family:Helvetica ;
+            font-size: 20px;
+            width: 200px;
+            min-height: 60px;
+            border-radius: 10px;
+            border-block:black;
+            text-transform: capitalize;
+            margin-top: 60px 50px;
+        }
+        .invited{
+            background-image: radial-gradient(red,blue,white,yellow,blue,black);
+            height: 500px;
+            font-family:Helvetic;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 200px;
+            color: beige;
+            line-height: 2;
+            margin-top: 100px;
+        }
+        .invited h1{
+            word-spacing: 20px;
+            text-transform: capitalize;
+            font-family:sans-serif ;
+        }
+        .wedding-cont{
+            text-align: center;
+            background-color: bisque;
+        }
+        .wedding-info h1{
+            text-transform: uppercase;
+            font-family:sans-serif ;
+            font-size: 35px;
+            font-weight: 750;
+            padding: 80px;
+            color: grey;
+        }
+        
+        .holder{
+        width: 70%;
+        padding-left: 300px;
+      }
+      .holder th,
+      .holder td{
+        padding: 15px;
+      }
+      .rsvp-cont{
+          min-height: 400px;
+          background-color: rgba(255, 99, 71, 0.3);
+          text-align: center;
+        }
+        .rsvp-info{
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode' ;
+            text-align: center;
+            padding-top: 150px; 
+            line-height: 2;
+            
+        }.rsvp-info h1{
+            font-weight: 700;
+            /* font-size: 25px; */
+            letter-spacing: 5px;
+        }
+        .button{
+            border: none;
+            margin-top: 20px;
+            background-color: none;
+
+            
+
+        }
+
+        .button a{
+            background-color: rgba(255, 99, 71, 0.5);
+            padding: 15px 45px;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 18px;
+          
+
+        }
+
+        .button a:hover{
+            background-color:whitesmoke;
+            color: rgb(41, 40, 38);
+        }
+        @media only screen and (max-width: 800px) {
+
+}
+    </style>
+</head>
+<body>
+    
+    <nav class="menu-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#jame&john"> jame&John</a></li>
+            <li><a href="wedding.html">wedding</a></li>
+            <li><a href="rsvp.html">RSVP</a></li>
+        </ul>   
+    </nav>
+    <div class="first-page">
+        <div class="first-txt">
+            <h1>Jane & John</h1>
+            <h3>Are getting married</h3>
+        </br>
+            <p class="date">17.07.2017</p>
+        </div>
+    </div>
+    <section class="jamejohn-cont">
+        <div id="jame&john" class="jame-john">
+            <div class="first-pg">
+                <h1>Jane & John</h1>
+                <div class="jamejohn-img">
+                    <img src="file:///C:/Users/CHIBUZOR/Desktop/W3Schools-2021-09-19/w3images/wedding_couple2.jpg" class="pic1" alt=""/>
+                </div>
+               <div class="para">
+                <p>
+                    You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</br>
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod</br>
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</br>
+                    consequat.
+                </p>
+               </div>
+                <button>wedding details</button>
+            </div>
+        </div>
+        <div class="invited">
+            <h1>you are invited</h1>
+            <h4>of course</h4>
+        </div>
+    </section>
+    <section class="wedding-cont">
+        <div id="wedding" class="wedding-info">
+            <h1>THE WEDDING
+            </h1>
+            <div class="ïmg-holder" >
+                <img src="file:///C:/Users/CHIBUZOR/Desktop/W3Schools-2021-09-19/w3images/wedding_location.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <table class="holder">
+                    <tr>
+                    <th>when</th>
+                    <th>where</th>
+                    </tr>
+                    <tr>
+                        <td>Wedding Ceremony - 2:00pm</td>
+                        <td>Some place, an address</td>
+                    </tr> 
+                    <tr>
+                        <td>Reception & Dinner - 5:00pm</td>
+                        <td>Some where, some address</td>
+                    </tr>
+                </table>
+            </div>
+        </div>   
+    </section>
+    <section class="rsvp-cont">
+        <div id="rsvp" class="rsvp-info" >
+            <h1>HOPE YOU CAN MAKE IT!</h1>
+            <p>Kindly Respond By January, 2017</p>
+            <div class="button">
+                <a href="#">RSVP</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
